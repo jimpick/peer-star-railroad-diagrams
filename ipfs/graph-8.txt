@@ -1,0 +1,27 @@
+Diagram(
+    Terminal('""'),
+    Stack(
+      Sequence(
+        Choice(0,
+         Sequence(
+           NonTerminal('"a"'),
+           NonTerminal('"b"'),
+           NonTerminal('"c"')
+         ),
+         NonTerminal('"abc"')
+        ),
+        Terminal('"abc"')
+      ),
+      Sequence(
+        Choice(0,
+          Sequence(
+            NonTerminal('"d"'),
+            NonTerminal('"e"'),
+            NonTerminal('"f"')
+          ),
+          NonTerminal('"def"')
+        ),
+        Terminal('"abcdef"')
+      )
+    )
+)
