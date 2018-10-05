@@ -1,0 +1,17 @@
+Diagram(
+    Terminal('""'),
+    Stack(
+      Sequence(
+        Choice(0,
+         NonTerminal('alice:3 "abc"')
+        ),
+        Terminal('alice:3 "abc"')
+      ),
+      Sequence(
+        Choice(0,
+          NonTerminal('alice:3 bob:3 "def"')
+        ),
+        Terminal('alice:3 bob:3 "abcdef"')
+      )
+    )
+)

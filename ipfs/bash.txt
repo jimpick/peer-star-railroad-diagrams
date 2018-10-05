@@ -1,0 +1,3 @@
+$ pbpaste > graph-7.txt
+$ cp ~/Dropbox/Screenshots/"`ls -rt ~/Dropbox/Screenshots | tail -1`" graph-7.png
+$ ./publish.sh

@@ -1,0 +1,6 @@
+Diagram(
+    Terminal('""'),
+     NonTerminal('alice:3 "abc"'),
+     NonTerminal('alice:3 bob:3 "def"'),
+    Terminal('alice:3 bob:3 "abcdef"')
+)
